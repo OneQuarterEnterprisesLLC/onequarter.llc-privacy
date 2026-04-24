@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vault | Privacy Policy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05050a; color: #e2e8f0; line-height: 1.6; }
+        .text-gold { color: #D4A017; }
+        .bg-gold { background-color: #D4A017; }
+        .gold-glow { text-shadow: 0 0 15px rgba(212, 160, 23, 0.4); }
+        .section-card { background: rgba(13, 13, 26, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        h1, h2, h3 { letter-spacing: -0.02em; text-transform: uppercase; }
+        .prose h3 { color: #D4A017; font-weight: 800; font-size: 0.875rem; margin-top: 2rem; margin-bottom: 0.75rem; letter-spacing: 0.1em; }
+        .prose p { margin-bottom: 1rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose ul { list-style-type: none; padding-left: 0; margin-bottom: 1.5rem; }
+        .prose li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose li::before { content: "•"; color: #D4A017; position: absolute; left: 0; font-weight: bold; }
+    </style>
+</head>
+<body class="selection:bg-gold selection:text-black">
+
+    <header class="fixed top-0 w-full z-50 bg-[#05050a]/80 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded bg-gold/10 border border-gold/30 flex items-center justify-center">
+                    <span class="text-gold font-black text-xl">V</span>
+                </div>
+                <span class="font-black tracking-tighter text-white uppercase text-xl">Vault</span>
+            </div>
+            <a href="mailto:support@onequarterdollar.com" class="text-[10px] font-bold tracking-widest uppercase text-gold">Support</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 pt-32 pb-20">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-black text-white gold-glow mb-4 uppercase italic">Privacy Policy</h1>
+            <p class="text-white/40 text-xs tracking-[0.3em] uppercase">Legal Framework v2.8 | One Quarter Enterprises LLC</p>
+        </div>
+
+        <section class="section-card rounded-3xl p-8 md:p-12 mb-12">
+            <div class="prose">
+                <p class="text-gold font-bold italic mb-6">Effective Date: April 24, 2026</p>
+                
+                <h3>1. DATA COLLECTION (DIGITAL LEDGER)</h3>
+                <p>Vault collects specific information provided voluntarily by the user, including primary email addresses and the financial figures entered into the personal dashboard. This data is utilized solely to populate the user's individual 3-Account ledger.</p>
+
+                <h3>2. THE NAVIGATION DOCTRINE</h3>
+                <p>Vault does not establish direct technical links to user bank accounts. All financial data is mirrored manually via user input. This architecture ensures that sensitive banking credentials and account access points remain entirely outside of the OQE LLC server environment.</p>
+
+                <h3>3. DATA SHARING & THIRD PARTIES</h3>
+                <ul>
+                    <li><strong>MailerLite:</strong> Utilized for system-critical reminders and habit-loop enforcement notifications.</li>
+                    <li><strong>Square:</strong> Utilized as the primary gateway for secure payment processing.</li>
+                    <li><strong>Non-Sale Policy:</strong> OQE LLC maintains a strict prohibition against the sale, rental, or trade of personal or financial user data to third-party marketing entities.</li>
+                </ul>
+
+                <h3>4. DATA SECURITY</h3>
+                <p>We utilize industry-standard encryption protocols to secure your data. Users maintain primary responsibility for the security of their unique access credentials.</p>
+
+                <h3>5. USER RIGHTS (GDPR/CCPA)</h3>
+                <p>Users maintain the right to request a comprehensive export of their Vault_Log or the permanent deletion of their profile at any time. Purged data is fully removed from active production databases within a 30-day window.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/5 py-12 px-6 text-center">
+        <p class="text-[10px] text-white/20 tracking-[0.4em] uppercase mb-2">Build the Legacy</p>
+        <p class="text-white/40 text-xs italic">&copy; 2026 One Quarter Enterprises LLC. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
