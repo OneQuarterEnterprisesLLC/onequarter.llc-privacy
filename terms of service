@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vault | Terms of Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05050a; color: #e2e8f0; line-height: 1.6; }
+        .text-gold { color: #D4A017; }
+        .bg-gold { background-color: #D4A017; }
+        .gold-glow { text-shadow: 0 0 15px rgba(212, 160, 23, 0.4); }
+        .section-card { background: rgba(13, 13, 26, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        h1, h2, h3 { letter-spacing: -0.02em; text-transform: uppercase; }
+        .prose h3 { color: #D4A017; font-weight: 800; font-size: 0.875rem; margin-top: 2rem; margin-bottom: 0.75rem; letter-spacing: 0.1em; }
+        .prose p { margin-bottom: 1rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose ul { list-style-type: none; padding-left: 0; margin-bottom: 1.5rem; }
+        .prose li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose li::before { content: "•"; color: #D4A017; position: absolute; left: 0; font-weight: bold; }
+    </style>
+</head>
+<body class="selection:bg-gold selection:text-black">
+
+    <header class="fixed top-0 w-full z-50 bg-[#05050a]/80 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded bg-gold/10 border border-gold/30 flex items-center justify-center">
+                    <span class="text-gold font-black text-xl">V</span>
+                </div>
+                <span class="font-black tracking-tighter text-white uppercase text-xl">Vault</span>
+            </div>
+            <a href="mailto:support@onequarterdollar.com" class="text-[10px] font-bold tracking-widest uppercase text-gold">Support</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 pt-32 pb-20">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-black text-white gold-glow mb-4 uppercase italic">Terms of Service</h1>
+            <p class="text-white/40 text-xs tracking-[0.3em] uppercase">Legal Framework v2.8 | One Quarter Enterprises LLC</p>
+        </div>
+
+        <section class="section-card rounded-3xl p-8 md:p-12 mb-12">
+            <div class="prose">
+                <p class="text-gold font-bold italic mb-6">Effective Date: April 24, 2026</p>
+                
+                <h3>1. THE SERVICE (THE PLATFORM)</h3>
+                <p>Vault is a Software-as-a-Service (SaaS) platform designed for financial organization and systemization efficiency. Vault provides a centralized digital ledger architecture for users to track and visualize capital flow through the 3-Account Machine framework (Shield, Vault, Legacy).</p>
+
+                <h3>2. NO FINANCIAL ADVICE (SEC COMPLIANCE)</h3>
+                <p>OQE LLC is not a chartered bank, investment advisor, broker-dealer, or certified tax professional. Vault is a technical tool for organizational structure and capital discipline. <strong>OQE LLC does not manage, hold, or execute transfers of user funds.</strong> Users are solely and exclusively responsible for all external banking movements and physical account activities.</p>
+
+                <h3>3. THE CODIFIER PROGRAM (FTC COMPLIANCE)</h3>
+                <ul>
+                    <li><strong>Eligibility:</strong> Qualified users may earn performance-based commissions by referring the Vault SaaS platform to third parties.</li>
+                    <li><strong>Proof of Work:</strong> Access to referral parameters is strictly contingent upon the verified completion of the "30-Day MVP Launch" as recorded by the system's internal audit.</li>
+                    <li><strong>No Earnings Guarantee:</strong> Codifier compensation is variable and predicated on individual performance. OQE LLC makes no representations or warranties regarding the income potential of any specific participant.</li>
+                </ul>
+
+                <h3>4. ACTIVATION FEES & REFUNDS</h3>
+                <p>One-time activation fees ($37, $97, $997) grant non-exclusive access to the proprietary software environment and the Vault Library. Due to the immediate delivery of digital assets and software access, all activation sales are final and non-refundable.</p>
+
+                <h3>5. 90-DAY RECALIBRATION PROTOCOL</h3>
+                <p>To ensure system integrity and user alignment, Tier 3 (Master) access requires a mandatory 90-day recalibration audit. Failure to re-verify diagnostic alignment within the designated 90-day window will result in temporary restricted access to dashboard visualization until the audit is reset.</p>
+
+                <h3>6. LIMITATION OF LIABILITY</h3>
+                <p>OQE LLC shall not be held liable for any financial losses, regulatory penalties, or banking discrepancies arising from the user's external financial activities or adherence to the system's organizational suggestions.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/5 py-12 px-6 text-center">
+        <p class="text-[10px] text-white/20 tracking-[0.4em] uppercase mb-2">Build the Legacy</p>
+        <p class="text-white/40 text-xs italic">&copy; 2026 One Quarter Enterprises LLC. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
