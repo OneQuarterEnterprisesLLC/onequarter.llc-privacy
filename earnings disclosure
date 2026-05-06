@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnings Disclosure | One Quarter Enterprises LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05050a; color: #e2e8f0; line-height: 1.6; }
+        .text-gold { color: #D4A017; }
+        .bg-gold { background-color: #D4A017; }
+        .section-card { background: rgba(13, 13, 26, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        h1, h2, h3 { letter-spacing: -0.02em; text-transform: uppercase; }
+        .prose h3 { color: #D4A017; font-weight: 800; font-size: 0.875rem; margin-top: 2rem; margin-bottom: 0.75rem; letter-spacing: 0.1em; }
+        .prose p { margin-bottom: 1rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+    </style>
+</head>
+<body class="selection:bg-gold selection:text-black">
+
+    <main class="max-w-4xl mx-auto px-6 pt-24 pb-20">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-black text-white mb-4 uppercase italic">Earnings Disclosure</h1>
+            <p class="text-white/40 text-xs tracking-[0.3em] uppercase">No Income Claims Policy | v1.2</p>
+        </div>
+
+        <section class="section-card rounded-3xl p-8 md:p-12 mb-12">
+            <div class="prose">
+                <p class="text-gold font-bold italic mb-6 text-center">"We make no income claims. We sell systems, not results."</p>
+                
+                <h3>1. NO GUARANTEES OF INCOME</h3>
+                <p>One Quarter Equals A Dollar (OQEAD) and One Quarter Enterprises LLC make absolutely no guarantees, warranties, or representations regarding the income or financial outcome a user may achieve by using our manual, toolkit, or software. Any financial numbers mentioned in our marketing—including the title of our manual—refer to the <strong>architectural capacity of the system</strong>, not a promise of personal earnings.</p>
+
+                <h3>2. ATYPICAL RESULTS</h3>
+                <p>The success stories and case studies featured on our platforms represent individual experiences and are considered <strong>atypical</strong>. Most people who purchase educational materials do not achieve the same results as the author or featured students. Your individual success depends entirely on your background, your starting capital, your existing business revenue, and your personal discipline.</p>
+
+                <h3>3. EDUCATIONAL FRAMEWORK ONLY</h3>
+                <p>OQEAD is an educational framework designed to teach organizational systemization and 3-account banking logic. We do not sell a "business opportunity" or a "get rich quick" scheme. We provide the "blueprint" and the "manual" for financial organization; the user is solely responsible for the physical construction and management of their own finances.</p>
+
+                <h3>4. NOT FINANCIAL ADVICE</h3>
+                <p>Donald E.R. Wiggins and One Quarter Enterprises LLC are not licensed financial advisors, CPAs, or attorneys. The information provided is for educational purposes only. You should consult with a qualified professional before making any significant financial decisions or legal movements regarding your business structure.</p>
+
+                <h3>5. THE "CHAOS TAX" ILLUSTRATION</h3>
+                <p>Our "Chaos Tax Calculator" is a simulation tool provided for educational illustration. The numbers it generates are based on user-entered assumptions regarding inefficiency and time-loss. These figures are hypothetical and do not constitute a diagnostic audit of your actual bank accounts.</p>
+
+                <div class="mt-12 pt-8 border-t border-white/10 text-center">
+                    <p class="text-white/40 text-xs italic">&copy; 2026 One Quarter Enterprises LLC. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
