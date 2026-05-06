@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OQEAD Blueprint | Terms of Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #05050a; color: #e2e8f0; line-height: 1.6; }
+        .text-gold { color: #D4A017; }
+        .bg-gold { background-color: #D4A017; }
+        .section-card { background: rgba(13, 13, 26, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        h1, h2, h3 { letter-spacing: -0.02em; text-transform: uppercase; }
+        .prose h3 { color: #D4A017; font-weight: 800; font-size: 0.875rem; margin-top: 2rem; margin-bottom: 0.75rem; letter-spacing: 0.1em; }
+        .prose p { margin-bottom: 1rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose ul { list-style-type: none; padding-left: 0; margin-bottom: 1.5rem; }
+        .prose li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: rgba(226, 232, 240, 0.7); font-size: 0.9375rem; }
+        .prose li::before { content: "•"; color: #D4A017; position: absolute; left: 0; font-weight: bold; }
+    </style>
+</head>
+<body class="selection:bg-gold selection:text-black">
+
+    <main class="max-w-4xl mx-auto px-6 pt-24 pb-20">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-black text-white mb-4 uppercase italic">Blueprint Terms</h1>
+            <p class="text-white/40 text-xs tracking-[0.3em] uppercase">Educational Product License | One Quarter Enterprises LLC</p>
+        </div>
+
+        <section class="section-card rounded-3xl p-8 md:p-12 mb-12">
+            <div class="prose">
+                <p class="text-gold font-bold italic mb-6">Effective Date: April 24, 2026</p>
+                
+                <h3>1. PRODUCT SCOPE</h3>
+                <p>The "OQEAD Blueprint" refers to the suite of digital educational materials including the 7-Chapter Systemization Manual, The Systemization Toolkit, The HVA Scripting, and the Universal Family Money Flow Manual. These are digital assets delivered immediately upon purchase via Square or designated delivery systems.</p>
+
+                <h3>2. PROPRIETARY RIGHTS & LICENSE</h3>
+                <p>All content within the Blueprint is the copyrighted intellectual property of One Quarter Enterprises LLC. Your purchase grants you a <strong>limited, non-exclusive, non-transferable license</strong> for personal and internal business use only. You are strictly prohibited from:</p>
+                <ul>
+                    <li>Reselling, sublicensing, or distributing the materials for commercial gain.</li>
+                    <li>Creating derivative works (courses, manuals, or coaching programs) based on the OQEAD frameworks.</li>
+                    <li>Posting scripts or proprietary logic (e.g., 3-Account Machine) on public forums or social media.</li>
+                </ul>
+
+                <h3>3. THE GIFT CLAUSE (CONTROLLED SHARING)</h3>
+                <p>In alignment with our ethical mandate, you are granted one (1) single exception to the non-distribution rule. You may gift the Blueprint materials to one individual experiencing genuine financial or personal hardship. This is a one-time transfer and does not permit further reproduction by the recipient.</p>
+
+                <h3>4. THE ARCHITECT'S PROMISE (REFUND POLICY)</h3>
+                <p>We stand by the architectural integrity of this system. If you read the manual, implement the 3-Account structure, and follow the steps for 30 days, yet feel the system has added no value to your financial organization, you may request a full refund of your $37 purchase price. Refund requests must be submitted to support@onequarterdollar.com within 30 days of purchase.</p>
+
+                <h3>5. NO FINANCIAL ADVICE</h3>
+                <p>This Blueprint is a structural framework for organization, not financial, legal, or tax advice. One Quarter Enterprises LLC is not a financial institution. Users are responsible for the physical execution of their bank account movements and should consult with a licensed professional before making significant changes to their business or personal finances.</p>
+
+                <h3>6. ETHICAL MANDATE</h3>
+                <p>By purchasing this system, you agree to build with character. This includes serving customers well, delivering honest value, and refusing to use these systems for deceptive or exploitative business practices.</p>
+
+                <div class="mt-12 pt-8 border-t border-white/10 text-center">
+                    <p class="text-[10px] text-white/20 tracking-[0.4em] uppercase mb-2">Structure = Scale</p>
+                    <p class="text-white/40 text-xs italic">&copy; 2026 One Quarter Enterprises LLC. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
